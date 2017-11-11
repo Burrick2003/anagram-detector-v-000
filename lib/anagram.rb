@@ -12,7 +12,7 @@ attr_accessor :word_input, :match_input
   def match(input)
     @match_input = input
       @match_input.select do |string|
-        @word_input.split("") == @match_input.split("")
+        @word_input.split("") == string.split("")
         end
       end
   end
