@@ -16,5 +16,4 @@ attr_accessor :word_input, :match_input
 
       end
   end
-
-
+end
