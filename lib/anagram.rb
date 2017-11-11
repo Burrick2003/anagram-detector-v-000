@@ -13,8 +13,8 @@ attr_accessor :word_input, :match_input
     @match_input = input
       @match_input.select do |string|
         @word_input.split("") == string.split("")
-        
+
       end
   end
 
-end
+
