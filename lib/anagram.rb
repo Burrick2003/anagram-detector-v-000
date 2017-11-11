@@ -11,4 +11,3 @@ attr_accessor :word_input, :match_input
       array.select {|x| x.split("").sort == @name.split("").sort}
     end
 
-end
